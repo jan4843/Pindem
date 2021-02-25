@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D74" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Bookmark" representedClassName="Bookmark" syncable="YES">
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="desc" attributeType="String"/>
+        <attribute name="meta" optional="YES" attributeType="String"/>
+        <attribute name="private" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="tags" attributeType="String"/>
+        <attribute name="title" attributeType="String"/>
+        <attribute name="unread" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="url" attributeType="URI"/>
+        <fetchIndex name="byURLIndex">
+            <fetchIndexElement property="url" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byMetaIndex">
+            <fetchIndexElement property="meta" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="CachedLink" representedClassName="CachedLink" syncable="YES" codeGenerationType="class">
+        <attribute name="creationDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="tags" optional="YES" attributeType="String"/>
+        <attribute name="title" attributeType="String"/>
+        <attribute name="unread" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="unshared" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="url" attributeType="URI"/>
+    </entity>
+    <elements>
+        <element name="Bookmark" positionX="-63" positionY="36" width="128" height="149"/>
+        <element name="CachedLink" positionX="-63" positionY="-18" width="128" height="134"/>
+    </elements>
+</model>

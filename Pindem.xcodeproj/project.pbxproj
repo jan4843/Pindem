@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D2073E625DC37B6002DDBDB /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2073E525DC37B6002DDBDB /* UIViewController+Alert.swift */; };
+		3D2073F925DC7BCC002DDBDB /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2073F825DC7BCC002DDBDB /* UserDefaults.swift */; };
+		3D3E265225D6FA6300C447FA /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3E265125D6FA6300C447FA /* Login.storyboard */; };
+		3D3E265725D6FAD600C447FA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3E265625D6FAD600C447FA /* LoginViewController.swift */; };
+		3D3E269325D71CD400C447FA /* EditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3E269225D71CD400C447FA /* EditorViewController.swift */; };
+		3D408C6B25E2C48200B33848 /* BookmarkListController+SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D408C6A25E2C48200B33848 /* BookmarkListController+SearchController.swift */; };
+		3D408C7025E2CCD100B33848 /* BookmarkList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D408C6F25E2CCD100B33848 /* BookmarkList.storyboard */; };
+		3D437A4425E5498200D49125 /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D437A4325E5498200D49125 /* AccountManager.swift */; };
+		3D437A4825E5603000D49125 /* String+Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D437A4725E5603000D49125 /* String+Base64.swift */; };
+		3D437A4B25E58FF500D49125 /* UIViewController+Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D437A4A25E58FF500D49125 /* UIViewController+Spinner.swift */; };
+		3D708C2225D6D98600BDF7F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D708C2125D6D98600BDF7F0 /* AppDelegate.swift */; };
+		3D708C2425D6D98600BDF7F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D708C2325D6D98600BDF7F0 /* SceneDelegate.swift */; };
+		3D708C2625D6D98600BDF7F0 /* BookmarkListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D708C2525D6D98600BDF7F0 /* BookmarkListController.swift */; };
+		3D708C2C25D6D98600BDF7F0 /* Pindem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D708C2A25D6D98600BDF7F0 /* Pindem.xcdatamodeld */; };
+		3D708C2E25D6D98700BDF7F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D708C2D25D6D98700BDF7F0 /* Assets.xcassets */; };
+		3D708C3125D6D98700BDF7F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D708C2F25D6D98700BDF7F0 /* LaunchScreen.storyboard */; };
+		3D708C7A25D6DFBD00BDF7F0 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D708C7925D6DFBD00BDF7F0 /* Settings.storyboard */; };
+		3D708C8925D6E49600BDF7F0 /* Editor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D708C8825D6E49600BDF7F0 /* Editor.storyboard */; };
+		3D708C8E25D6E7BA00BDF7F0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D708C8D25D6E7BA00BDF7F0 /* SettingsViewController.swift */; };
+		3D81E19A25E161DB00952FD5 /* UserDefaults+PropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D81E19925E161DB00952FD5 /* UserDefaults+PropertyWrapper.swift */; };
+		3D81E1A225E1625A00952FD5 /* Pinboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D81E1A125E1625A00952FD5 /* Pinboard.swift */; };
+		3D81E1A725E173E100952FD5 /* URL+QueryItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D81E1A625E173E100952FD5 /* URL+QueryItems.swift */; };
+		3DB409A625DB039900F4618D /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB409A425DB039900F4618D /* Bookmark.swift */; };
+		3DB409D625DC1C6500F4618D /* UITableViewCell+Stripe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB409D525DC1C6500F4618D /* UITableViewCell+Stripe.swift */; };
+		3DB409DE25DC22AA00F4618D /* BookmarkListController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB409DD25DC22AA00F4618D /* BookmarkListController+TableView.swift */; };
+		3DB409EC25DC248600F4618D /* BookmarkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB409EB25DC248600F4618D /* BookmarkManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D2073E525DC37B6002DDBDB /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		3D2073F825DC7BCC002DDBDB /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		3D3E265125D6FA6300C447FA /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		3D3E265625D6FAD600C447FA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3D3E269225D71CD400C447FA /* EditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorViewController.swift; sourceTree = "<group>"; };
+		3D408C6A25E2C48200B33848 /* BookmarkListController+SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BookmarkListController+SearchController.swift"; sourceTree = "<group>"; };
+		3D408C6F25E2CCD100B33848 /* BookmarkList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BookmarkList.storyboard; sourceTree = "<group>"; };
+		3D437A4325E5498200D49125 /* AccountManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManager.swift; sourceTree = "<group>"; };
+		3D437A4725E5603000D49125 /* String+Base64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Base64.swift"; sourceTree = "<group>"; };
+		3D437A4A25E58FF500D49125 /* UIViewController+Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Spinner.swift"; sourceTree = "<group>"; };
+		3D708C1E25D6D98600BDF7F0 /* Pindem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pindem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D708C2125D6D98600BDF7F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D708C2325D6D98600BDF7F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3D708C2525D6D98600BDF7F0 /* BookmarkListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkListController.swift; sourceTree = "<group>"; };
+		3D708C2B25D6D98600BDF7F0 /* Pindem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pindem.xcdatamodel; sourceTree = "<group>"; };
+		3D708C2D25D6D98700BDF7F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D708C3025D6D98700BDF7F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D708C3225D6D98700BDF7F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D708C7925D6DFBD00BDF7F0 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		3D708C8825D6E49600BDF7F0 /* Editor.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Editor.storyboard; sourceTree = "<group>"; };
+		3D708C8D25D6E7BA00BDF7F0 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3D81E19925E161DB00952FD5 /* UserDefaults+PropertyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+PropertyWrapper.swift"; sourceTree = "<group>"; };
+		3D81E1A125E1625A00952FD5 /* Pinboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pinboard.swift; sourceTree = "<group>"; };
+		3D81E1A625E173E100952FD5 /* URL+QueryItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+QueryItems.swift"; sourceTree = "<group>"; };
+		3DB409A425DB039900F4618D /* Bookmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Bookmark.swift; path = Pindem/Models/Bookmark.swift; sourceTree = SOURCE_ROOT; };
+		3DB409D525DC1C6500F4618D /* UITableViewCell+Stripe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Stripe.swift"; sourceTree = "<group>"; };
+		3DB409DD25DC22AA00F4618D /* BookmarkListController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BookmarkListController+TableView.swift"; sourceTree = "<group>"; };
+		3DB409EB25DC248600F4618D /* BookmarkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D708C1B25D6D98600BDF7F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D3E265025D6FA4F00C447FA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3D3E265125D6FA6300C447FA /* Login.storyboard */,
+				3D3E265625D6FAD600C447FA /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3D3E26D425D8358A00C447FA /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				3D437A4325E5498200D49125 /* AccountManager.swift */,
+				3DB409EB25DC248600F4618D /* BookmarkManager.swift */,
+				3D81E1A125E1625A00952FD5 /* Pinboard.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		3D708C1525D6D98600BDF7F0 = {
+			isa = PBXGroup;
+			children = (
+				3D708C2025D6D98600BDF7F0 /* Pindem */,
+				3D708C1F25D6D98600BDF7F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D708C1F25D6D98600BDF7F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D708C1E25D6D98600BDF7F0 /* Pindem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D708C2025D6D98600BDF7F0 /* Pindem */ = {
+			isa = PBXGroup;
+			children = (
+				3D3E26D425D8358A00C447FA /* Logic */,
+				3D708C7425D6DB8F00BDF7F0 /* Models */,
+				3D708C5725D6D9B500BDF7F0 /* Views */,
+				3D81E19825E1619D00952FD5 /* Extensions */,
+				3D708C2125D6D98600BDF7F0 /* AppDelegate.swift */,
+				3D708C2325D6D98600BDF7F0 /* SceneDelegate.swift */,
+				3D708C2D25D6D98700BDF7F0 /* Assets.xcassets */,
+				3D708C2F25D6D98700BDF7F0 /* LaunchScreen.storyboard */,
+				3D708C3225D6D98700BDF7F0 /* Info.plist */,
+			);
+			path = Pindem;
+			sourceTree = "<group>";
+		};
+		3D708C5725D6D9B500BDF7F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D708C5825D6D9BE00BDF7F0 /* BookmarkList */,
+				3D708C8725D6E47E00BDF7F0 /* Editor */,
+				3D3E265025D6FA4F00C447FA /* Login */,
+				3D708C7825D6DF9A00BDF7F0 /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3D708C5825D6D9BE00BDF7F0 /* BookmarkList */ = {
+			isa = PBXGroup;
+			children = (
+				3D408C6F25E2CCD100B33848 /* BookmarkList.storyboard */,
+				3D708C2525D6D98600BDF7F0 /* BookmarkListController.swift */,
+				3DB409DD25DC22AA00F4618D /* BookmarkListController+TableView.swift */,
+				3D408C6A25E2C48200B33848 /* BookmarkListController+SearchController.swift */,
+			);
+			path = BookmarkList;
+			sourceTree = "<group>";
+		};
+		3D708C7425D6DB8F00BDF7F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D708C2A25D6D98600BDF7F0 /* Pindem.xcdatamodeld */,
+				3DB409A425DB039900F4618D /* Bookmark.swift */,
+				3D2073F825DC7BCC002DDBDB /* UserDefaults.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3D708C7825D6DF9A00BDF7F0 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3D708C7925D6DFBD00BDF7F0 /* Settings.storyboard */,
+				3D708C8D25D6E7BA00BDF7F0 /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3D708C8725D6E47E00BDF7F0 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				3D708C8825D6E49600BDF7F0 /* Editor.storyboard */,
+				3D3E269225D71CD400C447FA /* EditorViewController.swift */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		3D81E19825E1619D00952FD5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3D2073E525DC37B6002DDBDB /* UIViewController+Alert.swift */,
+				3D437A4A25E58FF500D49125 /* UIViewController+Spinner.swift */,
+				3DB409D525DC1C6500F4618D /* UITableViewCell+Stripe.swift */,
+				3D81E19925E161DB00952FD5 /* UserDefaults+PropertyWrapper.swift */,
+				3D81E1A625E173E100952FD5 /* URL+QueryItems.swift */,
+				3D437A4725E5603000D49125 /* String+Base64.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D708C1D25D6D98600BDF7F0 /* Pindem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D708C4B25D6D98700BDF7F0 /* Build configuration list for PBXNativeTarget "Pindem" */;
+			buildPhases = (
+				3D708C1A25D6D98600BDF7F0 /* Sources */,
+				3D708C1B25D6D98600BDF7F0 /* Frameworks */,
+				3D708C1C25D6D98600BDF7F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pindem;
+			productName = Pindem;
+			productReference = 3D708C1E25D6D98600BDF7F0 /* Pindem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D708C1625D6D98600BDF7F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					1,
+				);
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					3D708C1D25D6D98600BDF7F0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 3D708C1925D6D98600BDF7F0 /* Build configuration list for PBXProject "Pindem" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D708C1525D6D98600BDF7F0;
+			productRefGroup = 3D708C1F25D6D98600BDF7F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D708C1D25D6D98600BDF7F0 /* Pindem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D708C1C25D6D98600BDF7F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D708C3125D6D98700BDF7F0 /* LaunchScreen.storyboard in Resources */,
+				3D408C7025E2CCD100B33848 /* BookmarkList.storyboard in Resources */,
+				3D708C2E25D6D98700BDF7F0 /* Assets.xcassets in Resources */,
+				3D708C8925D6E49600BDF7F0 /* Editor.storyboard in Resources */,
+				3D3E265225D6FA6300C447FA /* Login.storyboard in Resources */,
+				3D708C7A25D6DFBD00BDF7F0 /* Settings.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D708C1A25D6D98600BDF7F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB409DE25DC22AA00F4618D /* BookmarkListController+TableView.swift in Sources */,
+				3DB409EC25DC248600F4618D /* BookmarkManager.swift in Sources */,
+				3D2073E625DC37B6002DDBDB /* UIViewController+Alert.swift in Sources */,
+				3D3E265725D6FAD600C447FA /* LoginViewController.swift in Sources */,
+				3DB409D625DC1C6500F4618D /* UITableViewCell+Stripe.swift in Sources */,
+				3D437A4425E5498200D49125 /* AccountManager.swift in Sources */,
+				3D2073F925DC7BCC002DDBDB /* UserDefaults.swift in Sources */,
+				3D708C2C25D6D98600BDF7F0 /* Pindem.xcdatamodeld in Sources */,
+				3D708C2625D6D98600BDF7F0 /* BookmarkListController.swift in Sources */,
+				3D708C2225D6D98600BDF7F0 /* AppDelegate.swift in Sources */,
+				3D437A4825E5603000D49125 /* String+Base64.swift in Sources */,
+				3DB409A625DB039900F4618D /* Bookmark.swift in Sources */,
+				3D408C6B25E2C48200B33848 /* BookmarkListController+SearchController.swift in Sources */,
+				3D81E1A225E1625A00952FD5 /* Pinboard.swift in Sources */,
+				3D708C8E25D6E7BA00BDF7F0 /* SettingsViewController.swift in Sources */,
+				3D81E1A725E173E100952FD5 /* URL+QueryItems.swift in Sources */,
+				3D437A4B25E58FF500D49125 /* UIViewController+Spinner.swift in Sources */,
+				3D708C2425D6D98600BDF7F0 /* SceneDelegate.swift in Sources */,
+				3D3E269325D71CD400C447FA /* EditorViewController.swift in Sources */,
+				3D81E19A25E161DB00952FD5 /* UserDefaults+PropertyWrapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D708C2F25D6D98700BDF7F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D708C3025D6D98700BDF7F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D708C4925D6D98700BDF7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D708C4A25D6D98700BDF7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D708C4C25D6D98700BDF7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VUXB5VQ96M;
+				INFOPLIST_FILE = Pindem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.janvitturi.Pindem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3D708C4D25D6D98700BDF7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VUXB5VQ96M;
+				INFOPLIST_FILE = Pindem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.janvitturi.Pindem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D708C1925D6D98600BDF7F0 /* Build configuration list for PBXProject "Pindem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D708C4925D6D98700BDF7F0 /* Debug */,
+				3D708C4A25D6D98700BDF7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D708C4B25D6D98700BDF7F0 /* Build configuration list for PBXNativeTarget "Pindem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D708C4C25D6D98700BDF7F0 /* Debug */,
+				3D708C4D25D6D98700BDF7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3D708C2A25D6D98600BDF7F0 /* Pindem.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3D708C2B25D6D98600BDF7F0 /* Pindem.xcdatamodel */,
+			);
+			currentVersion = 3D708C2B25D6D98600BDF7F0 /* Pindem.xcdatamodel */;
+			path = Pindem.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3D708C1625D6D98600BDF7F0 /* Project object */;
+}
